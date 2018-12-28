@@ -1,0 +1,20 @@
+{
+  "name": "bplokjs-placement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bplokjs/placement.git"
+  },
+  "keywords": [],
+  "author": "nobo.zhou@foxmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bplokjs/placement/issues"
+  },
+  "homepage": "https://github.com/bplokjs/placement#readme"
+}
