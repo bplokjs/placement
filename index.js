@@ -28,6 +28,18 @@ var _placements = {
             my: 'center center',
         }
     },
+    left: function (offset) {
+        return this.leftCenter(offset);
+    },
+    top: function (offset) {
+        return this.topCenter(offset);
+    },
+    right: function (offset) {
+        return this.rightCenter(offset);
+    },
+    bottom: function (offset) {
+        return this.bottomCenter(offset);
+    },
     leftCenter: function (offset) {
         return {
             at: getOffset('left', 'center', offset),
