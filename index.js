@@ -9,7 +9,7 @@ function getOffset(h, v, offset) {
         v += reg.test(offset[1]) ? offset[1] : '+' + offset[1];
     }
 
-    return `${h} ${v}`;
+    return [h, v].join(' ');
 }
 
 // at: point(at)
